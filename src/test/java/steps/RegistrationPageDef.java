@@ -22,4 +22,5 @@ public class RegistrationPageDef {
     public void inputPESEL() {
         registrationPage.inputPersonal(UserConfig.USER_PESEL);
     }
+
 }

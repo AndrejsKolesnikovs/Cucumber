@@ -11,14 +11,14 @@ public class RegistrationPage {
     private SelenideElement personalCode = $(By.cssSelector("#main-reg-form > div.wrapped-block.my-data > div.inner > div.left > div.input-wrapper.row.cf.mandatory.Personal_No > input"));
 
     public void inputName(String text) {
-        this.userName.val(text);
+        userName.val(text);
     }
 
     public void inputSurname(String text) {
-        this.userSurname.val(text);
+        userSurname.val(text);
     }
 
     public void inputPersonal(String text) {
-        this.personalCode.val(text);
+        personalCode.val(text);
     }
 }

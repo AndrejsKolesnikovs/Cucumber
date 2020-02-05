@@ -8,7 +8,7 @@ public class Hooks {
 
     @Before
     public void openUrl() {
-        open("http://www.wandoo.pl/");
+        open("http://stage.wandoo.pl/");
 
     }
 }
